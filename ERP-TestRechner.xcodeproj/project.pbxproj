@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9D9F3A24C9893900F5D3DD /* ERP_TestRechnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F3924C9893900F5D3DD /* ERP_TestRechnerApp.swift */; };
+		AA9D9F3C24C9893900F5D3DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F3B24C9893900F5D3DD /* ContentView.swift */; };
+		AA9D9F3E24C9893B00F5D3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9D9F3D24C9893B00F5D3DD /* Assets.xcassets */; };
+		AA9D9F4124C9893B00F5D3DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9D9F4024C9893B00F5D3DD /* Preview Assets.xcassets */; };
+		AA9D9F4C24C9893B00F5D3DD /* ERP_TestRechnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F4B24C9893B00F5D3DD /* ERP_TestRechnerTests.swift */; };
+		AA9D9F5724C9893B00F5D3DD /* ERP_TestRechnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F5624C9893B00F5D3DD /* ERP_TestRechnerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9D9F4824C9893B00F5D3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9D9F2E24C9893900F5D3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9D9F3524C9893900F5D3DD;
+			remoteInfo = "ERP-TestRechner";
+		};
+		AA9D9F5324C9893B00F5D3DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9D9F2E24C9893900F5D3DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9D9F3524C9893900F5D3DD;
+			remoteInfo = "ERP-TestRechner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA9D9F3624C9893900F5D3DD /* ERP-TestRechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ERP-TestRechner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9D9F3924C9893900F5D3DD /* ERP_TestRechnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERP_TestRechnerApp.swift; sourceTree = "<group>"; };
+		AA9D9F3B24C9893900F5D3DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA9D9F3D24C9893B00F5D3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9D9F4024C9893B00F5D3DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA9D9F4224C9893B00F5D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9D9F4724C9893B00F5D3DD /* ERP-TestRechnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ERP-TestRechnerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9D9F4B24C9893B00F5D3DD /* ERP_TestRechnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERP_TestRechnerTests.swift; sourceTree = "<group>"; };
+		AA9D9F4D24C9893B00F5D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9D9F5224C9893B00F5D3DD /* ERP-TestRechnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ERP-TestRechnerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9D9F5624C9893B00F5D3DD /* ERP_TestRechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERP_TestRechnerUITests.swift; sourceTree = "<group>"; };
+		AA9D9F5824C9893B00F5D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9D9F3324C9893900F5D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9D9F4424C9893B00F5D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9D9F4F24C9893B00F5D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9D9F2D24C9893900F5D3DD = {
+			isa = PBXGroup;
+			children = (
+				AA9D9F3824C9893900F5D3DD /* ERP-TestRechner */,
+				AA9D9F4A24C9893B00F5D3DD /* ERP-TestRechnerTests */,
+				AA9D9F5524C9893B00F5D3DD /* ERP-TestRechnerUITests */,
+				AA9D9F3724C9893900F5D3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9D9F3724C9893900F5D3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D9F3624C9893900F5D3DD /* ERP-TestRechner.app */,
+				AA9D9F4724C9893B00F5D3DD /* ERP-TestRechnerTests.xctest */,
+				AA9D9F5224C9893B00F5D3DD /* ERP-TestRechnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9D9F3824C9893900F5D3DD /* ERP-TestRechner */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D9F3924C9893900F5D3DD /* ERP_TestRechnerApp.swift */,
+				AA9D9F3B24C9893900F5D3DD /* ContentView.swift */,
+				AA9D9F3D24C9893B00F5D3DD /* Assets.xcassets */,
+				AA9D9F4224C9893B00F5D3DD /* Info.plist */,
+				AA9D9F3F24C9893B00F5D3DD /* Preview Content */,
+			);
+			path = "ERP-TestRechner";
+			sourceTree = "<group>";
+		};
+		AA9D9F3F24C9893B00F5D3DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D9F4024C9893B00F5D3DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA9D9F4A24C9893B00F5D3DD /* ERP-TestRechnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D9F4B24C9893B00F5D3DD /* ERP_TestRechnerTests.swift */,
+				AA9D9F4D24C9893B00F5D3DD /* Info.plist */,
+			);
+			path = "ERP-TestRechnerTests";
+			sourceTree = "<group>";
+		};
+		AA9D9F5524C9893B00F5D3DD /* ERP-TestRechnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9D9F5624C9893B00F5D3DD /* ERP_TestRechnerUITests.swift */,
+				AA9D9F5824C9893B00F5D3DD /* Info.plist */,
+			);
+			path = "ERP-TestRechnerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9D9F3524C9893900F5D3DD /* ERP-TestRechner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9D9F5B24C9893B00F5D3DD /* Build configuration list for PBXNativeTarget "ERP-TestRechner" */;
+			buildPhases = (
+				AA9D9F3224C9893900F5D3DD /* Sources */,
+				AA9D9F3324C9893900F5D3DD /* Frameworks */,
+				AA9D9F3424C9893900F5D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ERP-TestRechner";
+			productName = "ERP-TestRechner";
+			productReference = AA9D9F3624C9893900F5D3DD /* ERP-TestRechner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9D9F4624C9893B00F5D3DD /* ERP-TestRechnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9D9F5E24C9893B00F5D3DD /* Build configuration list for PBXNativeTarget "ERP-TestRechnerTests" */;
+			buildPhases = (
+				AA9D9F4324C9893B00F5D3DD /* Sources */,
+				AA9D9F4424C9893B00F5D3DD /* Frameworks */,
+				AA9D9F4524C9893B00F5D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9D9F4924C9893B00F5D3DD /* PBXTargetDependency */,
+			);
+			name = "ERP-TestRechnerTests";
+			productName = "ERP-TestRechnerTests";
+			productReference = AA9D9F4724C9893B00F5D3DD /* ERP-TestRechnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9D9F5124C9893B00F5D3DD /* ERP-TestRechnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9D9F6124C9893B00F5D3DD /* Build configuration list for PBXNativeTarget "ERP-TestRechnerUITests" */;
+			buildPhases = (
+				AA9D9F4E24C9893B00F5D3DD /* Sources */,
+				AA9D9F4F24C9893B00F5D3DD /* Frameworks */,
+				AA9D9F5024C9893B00F5D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9D9F5424C9893B00F5D3DD /* PBXTargetDependency */,
+			);
+			name = "ERP-TestRechnerUITests";
+			productName = "ERP-TestRechnerUITests";
+			productReference = AA9D9F5224C9893B00F5D3DD /* ERP-TestRechnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9D9F2E24C9893900F5D3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AA9D9F3524C9893900F5D3DD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AA9D9F4624C9893B00F5D3DD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AA9D9F3524C9893900F5D3DD;
+					};
+					AA9D9F5124C9893B00F5D3DD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AA9D9F3524C9893900F5D3DD;
+					};
+				};
+			};
+			buildConfigurationList = AA9D9F3124C9893900F5D3DD /* Build configuration list for PBXProject "ERP-TestRechner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9D9F2D24C9893900F5D3DD;
+			productRefGroup = AA9D9F3724C9893900F5D3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9D9F3524C9893900F5D3DD /* ERP-TestRechner */,
+				AA9D9F4624C9893B00F5D3DD /* ERP-TestRechnerTests */,
+				AA9D9F5124C9893B00F5D3DD /* ERP-TestRechnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9D9F3424C9893900F5D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9D9F4124C9893B00F5D3DD /* Preview Assets.xcassets in Resources */,
+				AA9D9F3E24C9893B00F5D3DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9D9F4524C9893B00F5D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9D9F5024C9893B00F5D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9D9F3224C9893900F5D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9D9F3C24C9893900F5D3DD /* ContentView.swift in Sources */,
+				AA9D9F3A24C9893900F5D3DD /* ERP_TestRechnerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9D9F4324C9893B00F5D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9D9F4C24C9893B00F5D3DD /* ERP_TestRechnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9D9F4E24C9893B00F5D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9D9F5724C9893B00F5D3DD /* ERP_TestRechnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9D9F4924C9893B00F5D3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9D9F3524C9893900F5D3DD /* ERP-TestRechner */;
+			targetProxy = AA9D9F4824C9893B00F5D3DD /* PBXContainerItemProxy */;
+		};
+		AA9D9F5424C9893B00F5D3DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9D9F3524C9893900F5D3DD /* ERP-TestRechner */;
+			targetProxy = AA9D9F5324C9893B00F5D3DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA9D9F5924C9893B00F5D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA9D9F5A24C9893B00F5D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9D9F5C24C9893B00F5D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ERP-TestRechner/Preview Content\"";
+				DEVELOPMENT_TEAM = QHAK8XB995;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ERP-TestRechner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Darker97.ERP-TestRechner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9D9F5D24C9893B00F5D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ERP-TestRechner/Preview Content\"";
+				DEVELOPMENT_TEAM = QHAK8XB995;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ERP-TestRechner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Darker97.ERP-TestRechner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA9D9F5F24C9893B00F5D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHAK8XB995;
+				INFOPLIST_FILE = "ERP-TestRechnerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Darker97.ERP-TestRechnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERP-TestRechner.app/ERP-TestRechner";
+			};
+			name = Debug;
+		};
+		AA9D9F6024C9893B00F5D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHAK8XB995;
+				INFOPLIST_FILE = "ERP-TestRechnerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Darker97.ERP-TestRechnerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERP-TestRechner.app/ERP-TestRechner";
+			};
+			name = Release;
+		};
+		AA9D9F6224C9893B00F5D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHAK8XB995;
+				INFOPLIST_FILE = "ERP-TestRechnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Darker97.ERP-TestRechnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ERP-TestRechner";
+			};
+			name = Debug;
+		};
+		AA9D9F6324C9893B00F5D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QHAK8XB995;
+				INFOPLIST_FILE = "ERP-TestRechnerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Darker97.ERP-TestRechnerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ERP-TestRechner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9D9F3124C9893900F5D3DD /* Build configuration list for PBXProject "ERP-TestRechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9D9F5924C9893B00F5D3DD /* Debug */,
+				AA9D9F5A24C9893B00F5D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9D9F5B24C9893B00F5D3DD /* Build configuration list for PBXNativeTarget "ERP-TestRechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9D9F5C24C9893B00F5D3DD /* Debug */,
+				AA9D9F5D24C9893B00F5D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9D9F5E24C9893B00F5D3DD /* Build configuration list for PBXNativeTarget "ERP-TestRechnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9D9F5F24C9893B00F5D3DD /* Debug */,
+				AA9D9F6024C9893B00F5D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9D9F6124C9893B00F5D3DD /* Build configuration list for PBXNativeTarget "ERP-TestRechnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9D9F6224C9893B00F5D3DD /* Debug */,
+				AA9D9F6324C9893B00F5D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9D9F2E24C9893900F5D3DD /* Project object */;
+}
