@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AA9D9F3A24C9893900F5D3DD /* ERP_TestRechnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F3924C9893900F5D3DD /* ERP_TestRechnerApp.swift */; };
-		AA9D9F3C24C9893900F5D3DD /* Hauptmenü.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F3B24C9893900F5D3DD /* Hauptmenü.swift */; };
+		AA9D9F3C24C9893900F5D3DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F3B24C9893900F5D3DD /* ContentView.swift */; };
 		AA9D9F3E24C9893B00F5D3DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9D9F3D24C9893B00F5D3DD /* Assets.xcassets */; };
 		AA9D9F4124C9893B00F5D3DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9D9F4024C9893B00F5D3DD /* Preview Assets.xcassets */; };
 		AA9D9F4C24C9893B00F5D3DD /* ERP_TestRechnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F4B24C9893B00F5D3DD /* ERP_TestRechnerTests.swift */; };
 		AA9D9F5724C9893B00F5D3DD /* ERP_TestRechnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F5624C9893B00F5D3DD /* ERP_TestRechnerUITests.swift */; };
-		AA9D9F6724C990C800F5D3DD /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F6624C990C800F5D3DD /* Struct.swift */; };
-		AA9D9F6924C990D400F5D3DD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F6824C990D400F5D3DD /* View.swift */; };
+		AA9D9F6724C990C800F5D3DD /* Produkt_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F6624C990C800F5D3DD /* Produkt_Struct.swift */; };
+		AA9D9F6924C990D400F5D3DD /* Produkt_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F6824C990D400F5D3DD /* Produkt_View.swift */; };
 		AA9D9F6C24C990FF00F5D3DD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F6B24C990FF00F5D3DD /* View.swift */; };
 		AA9D9F6E24C9910500F5D3DD /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9D9F6D24C9910500F5D3DD /* Struct.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		AA9D9F3624C9893900F5D3DD /* ERP-TestRechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ERP-TestRechner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9D9F3924C9893900F5D3DD /* ERP_TestRechnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERP_TestRechnerApp.swift; sourceTree = "<group>"; };
-		AA9D9F3B24C9893900F5D3DD /* Hauptmenü.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hauptmenü.swift"; sourceTree = "<group>"; };
+		AA9D9F3B24C9893900F5D3DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA9D9F3D24C9893B00F5D3DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9D9F4024C9893B00F5D3DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA9D9F4224C9893B00F5D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,8 +50,8 @@
 		AA9D9F5624C9893B00F5D3DD /* ERP_TestRechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERP_TestRechnerUITests.swift; sourceTree = "<group>"; };
 		AA9D9F5824C9893B00F5D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9D9F6424C9894C00F5D3DD /* ERP-TestRechner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ERP-TestRechner.entitlements"; sourceTree = "<group>"; };
-		AA9D9F6624C990C800F5D3DD /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
-		AA9D9F6824C990D400F5D3DD /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		AA9D9F6624C990C800F5D3DD /* Produkt_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produkt_Struct.swift; sourceTree = "<group>"; };
+		AA9D9F6824C990D400F5D3DD /* Produkt_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produkt_View.swift; sourceTree = "<group>"; };
 		AA9D9F6B24C990FF00F5D3DD /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		AA9D9F6D24C9910500F5D3DD /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +108,7 @@
 				AA9D9F3924C9893900F5D3DD /* ERP_TestRechnerApp.swift */,
 				AA9D9F3D24C9893B00F5D3DD /* Assets.xcassets */,
 				AA9D9F4224C9893B00F5D3DD /* Info.plist */,
-				AA9D9F3B24C9893900F5D3DD /* Hauptmenü.swift */,
+				AA9D9F3B24C9893900F5D3DD /* ContentView.swift */,
 				AA9D9F6524C990AB00F5D3DD /* Produktionsgrobplanung */,
 				AA9D9F6A24C990E800F5D3DD /* Terminierung */,
 				AA9D9F3F24C9893B00F5D3DD /* Preview Content */,
@@ -145,8 +145,8 @@
 		AA9D9F6524C990AB00F5D3DD /* Produktionsgrobplanung */ = {
 			isa = PBXGroup;
 			children = (
-				AA9D9F6624C990C800F5D3DD /* Struct.swift */,
-				AA9D9F6824C990D400F5D3DD /* View.swift */,
+				AA9D9F6624C990C800F5D3DD /* Produkt_Struct.swift */,
+				AA9D9F6824C990D400F5D3DD /* Produkt_View.swift */,
 			);
 			path = Produktionsgrobplanung;
 			sourceTree = "<group>";
@@ -290,10 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA9D9F6E24C9910500F5D3DD /* Struct.swift in Sources */,
-				AA9D9F6924C990D400F5D3DD /* View.swift in Sources */,
-				AA9D9F6724C990C800F5D3DD /* Struct.swift in Sources */,
+				AA9D9F6924C990D400F5D3DD /* Produkt_View.swift in Sources */,
+				AA9D9F6724C990C800F5D3DD /* Produkt_Struct.swift in Sources */,
 				AA9D9F6C24C990FF00F5D3DD /* View.swift in Sources */,
-				AA9D9F3C24C9893900F5D3DD /* Hauptmenü.swift in Sources */,
+				AA9D9F3C24C9893900F5D3DD /* ContentView.swift in Sources */,
 				AA9D9F3A24C9893900F5D3DD /* ERP_TestRechnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -490,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "2,6";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
